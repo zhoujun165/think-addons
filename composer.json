@@ -1,11 +1,11 @@
 {
-    "name": "zzstudio/think-addons",
+    "name": "zhoujun165/think-addons",
     "description": "The ThinkPHP5.1 Addons Package",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "byron",
-            "email": "xiaobo.sun@qq.com"
+            "name": "zhoujun",
+            "email": "380472723@qq.com"
         }
     ],
     "minimum-stability": "dev",
