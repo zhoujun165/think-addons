@@ -59,7 +59,7 @@ abstract class Addons
         $this->request = Container::get('request');
         $this->app     = Container::get('app');
         // 初始化视图模型
-        $this->view    = Container::get('view')->init(
+        $this->view    = Container::get('view', [], true)->init(
             array_merge($this->app['config']->get('template.'), $config)
         );
 
